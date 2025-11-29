@@ -1,6 +1,6 @@
 const express = require("express");
-const formController = require("../controllers/formController");
-const submissionController = require("../controllers/submissionController");
+const formController = require("../controllers/form.controller");
+const submissionController = require("../controllers/submission.controller");
 const { validateRequest } = require("../middleware/validateRequest");
 const { submissionSchema } = require("../validators/submissionSchemas");
 

@@ -11,8 +11,8 @@ const {
 } = require("../validators/submissionSchemas");
 const { validateRequest } = require("../middleware/validateRequest");
 const { adminAuth } = require("../middleware/adminAuth");
-const formController = require("../controllers/formController");
-const submissionController = require("../controllers/submissionController");
+const formController = require("../controllers/form.controller");
+const submissionController = require("../controllers/submission.controller");
 
 const router = express.Router();
 

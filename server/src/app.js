@@ -5,9 +5,9 @@ const morgan = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
-const adminRoutes = require("./routes/adminRoutes");
-const publicRoutes = require("./routes/publicRoutes");
-const userRoutes = require("./routes/userRoutes");
+const adminRoutes = require("./routes/admin.routes");
+const publicRoutes = require("./routes/public.routes");
+const userRoutes = require("./routes/user.routes");
 const { notFoundHandler, errorHandler } = require("./middleware/errorHandler");
 
 const app = express();

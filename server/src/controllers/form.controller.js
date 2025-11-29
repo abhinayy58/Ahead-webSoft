@@ -1,5 +1,5 @@
-const Form = require("../models/Form");
-const Submission = require("../models/Submission");
+const Form = require("../models/Form.model");
+const Submission = require("../models/Submission.model");
 
 const {
   normalizeFields,

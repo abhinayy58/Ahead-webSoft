@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../models/User.modal");
 const { generateToken } = require("../utils/genrateToken");
 const { sanitizePayload } = require("../utils/sanitizePayload");
 
